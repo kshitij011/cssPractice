@@ -1,0 +1,80 @@
+h1 {
+    text-align:center;
+    color: blue;
+}
+h2{
+    color:white;
+    background-color: black;
+}
+button{
+    color: brown;
+    background-color: aquamarine;
+}
+head{
+    color:red;
+}
+#headingOne{
+    background-color: aquamarine;
+}
+.para{
+    background-color: rgb(255,255,0);
+}
+
+#left{
+    text-align:left ;
+}
+#center{
+    text-align: center;
+}
+#right{
+    text-align: right;
+}
+
+#underlined{
+    text-decoration:underline;
+}
+#overlined{
+    text-decoration:overline;
+}
+#line-through{
+    text-decoration:line-through;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+#f1{
+    font-family:'Courier New', Courier, monospace;
+}
+#f2{
+    font-family:'Times New Roman', Times, serif
+}
+#f3{
+    font-family:cursive;
+}
+
+#s1{
+    font-size: 25px;
+}
+#s2{
+    font-size: 14px;
+}
+
+#lh1{
+    line-height: 6px;
+}
+#lh2{
+    line-height: 20px;
+}
+
+#tt1{
+    text-transform: uppercase;
+}
+#tt2{
+    text-transform: lowercase;
+}
+#tt3{
+    text-transform: capitalize;
+}

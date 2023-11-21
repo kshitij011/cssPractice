@@ -1,0 +1,21 @@
+body{
+    color:brown;
+    background-color: #000000;
+}
+#height{
+    color: greenyellow;
+    height:200px;
+    background-color: #414141;
+    padding: 10px;
+}
+#width{
+    color: greenyellow;
+    background-color: #424242;
+    width: 50%;
+    border: 3px solid green;
+    /* /* border-width: 2px; */
+    /* border-style: solid; */
+    border-radius: 9px;
+    text-align: center;
+    padding:10px;
+}

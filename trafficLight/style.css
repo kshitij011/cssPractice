@@ -1,0 +1,45 @@
+body{
+    background-color: #aaaaaa;
+
+}
+#box{
+    background-color: black;
+    height: 760px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+#red{
+    height:200px;
+    width:200px;
+    background-color: red;
+    border: 2px solid  white;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#yellow{
+    height:200px;
+    width:200px;
+    background-color: yellow;
+    border: 2px solid  white;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#green{
+    height:200px;
+    width:200px;
+    background-color: green;
+    border: 2px solid  white;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

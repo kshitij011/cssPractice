@@ -1,0 +1,36 @@
+#nav{
+    background-color: #0f1111;
+    height:60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#logo{
+    font-weight: bold;
+    margin:10px 200px 10px 10px;
+    font: size 25px;
+    color:#f08804;
+}
+#account{
+    color:white;
+    text-decoration: none;
+    margin:10px 200px 10px 10px;
+    font: size 25px;
+}
+#myCart{
+    color:white;
+    text-decoration: none;
+    margin:10px 200px 10px 10px;
+    font: size 25px;
+}
+#contact{
+    color:white;
+    text-decoration: none;
+    margin:10px 200px 10px 10px;
+    font: size 25px;
+}
+#searchButton{
+    color:white;
+    background-color: #f08804;
+    border-color: #f08804;
+}
