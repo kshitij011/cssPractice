@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color:green;
+}
+#sample{
+    background-color: red;
+    display:inline;
+}
+#box1{
+    margin:25px;
+    padding:auto;
+    height:100px;
+    width:100px;
+    background-color: red;
+
+}
+#box3{
+    margin:25px;
+    padding:auto;
+    height:100px;
+    width:100px;
+    background-color: rgba(0, 255, 0, 0.5);
+    color:white;
+}
+#box2{
+    margin:25px;
+    padding:auto;
+    height:100px;
+    width:100px;
+    background-color: rgba(0, 0, 255, 0.5);
+    display:inline;
+}
+
+#parent{
+    height: 400px;
+    width: 400px;
+    background-color: #ffffff;
+    margin:auto;
+
+}
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: #414141;
+    margin:auto;
+
+}
