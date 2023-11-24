@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./flexbox.css">
+</head>
+<body>
+    <h1>Learning flexbox</h1>
+    <h2>flexbox-direction: row</h2>
+    <p>
+        It is one dimensional method for arranging rows and columns.<br />
+        The default value of flexbox-direction is row.
+    </p>
+    <div id="outerdiv1" class="outerdiv">
+        <div id="div1">BOX1</div>
+        <div id="div2">BOX2</div>
+        <div id="div3">BOX3</div>
+        <div id="div4">BOX4</div>
+        <div id="div5">BOX5</div>
+    </div>
+    <h2>flexbox-direction: row-reverse</h2>
+    <p>
+        The row-reverse property reverses the flow of the flex elements from left to right side.<br />
+
+    </p>
+    <div id="outerdiv2" class="outerdiv">
+        <div id="div1">BOX1</div>
+        <div id="div2">BOX2</div>
+        <div id="div3">BOX3</div>
+        <div id="div4">BOX4</div>
+        <div id="div5">BOX5</div>
+    </div>
+
+    <h2>flexbox-direction: column</h2>
+    <p>
+        The column property arranges horizontal elements to vertical elements.<br />
+        It sets the main axis from left to right to top to bottom.<br />
+        The elements in column change their size to fit inside parent div.
+    </p>
+    <div id="outerdiv3" class="outerdiv">
+        <div id="div1">BOX1</div>
+        <div id="div2">BOX2</div>
+        <div id="div3">BOX3</div>
+        <div id="div4">BOX4</div>
+        <div id="div5">BOX5</div>
+    </div>
+
+    <h2>flexbox-direction: column-reverse</h2>
+    <p>
+        The column-reverse property rearranges elements from bottom to start.<br />
+
+    </p>
+    <div id="outerdiv4" class="outerdiv">
+        <div id="div1">BOX1</div>
+        <div id="div2">BOX2</div>
+        <div id="div3">BOX3</div>
+        <div id="div4">BOX4</div>
+        <div id="div5">BOX5</div>
+    </div>
+    <h1>Flex Properties</h1>
+    <ol type="I" >
+        <li>
+            <h2>justify-content:</h2>
+            <ol>
+                <li>
+                    <h3>flex-start:</h3>
+                    <p>It is the default position where contents start from the left side.</p>
+                    <div id="outerdiv5_1" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>flex-end:</h3>
+                    <p>It shifts the elements to the right side of the div at the end of the parent area without changing the direction or order of the elements.</p>
+                    <div id="outerdiv5_2" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>center:</h3>
+                    <p>Aligns element to the center.</p>
+                    <div id="outerdiv5_3" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>space-evenly:</h3>
+                    <p>Evenly spaces every element.</p>
+                    <div id="outerdiv5_4" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+            </ol>
+        </li>
+        <li><h2>flex-wrap:</h2>
+            <p>To cause wrapping behavior add the property flex-wrap with a value of wrap. Now, should your items be too large to all display in one line, they will wrap onto another line. The live sample below contains items that have been given a width, the total width of the items being too wide for the flex container. As flex-wrap is set to wrap, the items wrap. Set it to nowrap, which is also the initial value, and they will instead shrink to fit the container because they are using initial flexbox values that allows items to shrink. Using nowrap would cause an overflow if the items were not able to shrink, or could not shrink small enough to fit.</p>
+            <ol>
+                <li><h3>nowrap:</h3>
+                    <p>Elements adjust their size to fit within the given width</p>
+                    <div id="outerdiv6_1" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>wrap:</h3>
+                    <p>Elements with larger width go to lower line if they do not fit in original width.</p>
+                    <div id="outerdiv6_2" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>wrap-reverse:</h3>
+                    <p>Reverses the order of elements in the area.</p>
+                    <div id="outerdiv6_3" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <h2>align-items:</h2>
+            <p>lets us align items on the cross plane(y-axis/vertically). </p>
+            <ol>
+                <li>
+                    <h3>center:</h3>
+                    <p>Aligns item in the center of the total height of the parent.</p>
+                    <div id="outerdiv7_1" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>baseline:</h3>
+                    <p> </p>
+                    <div id="outerdiv7_2" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>end:</h3>
+                    <p>Aligns item at the end of the parent width area.</p>
+                    <div id="outerdiv7_3" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                    </div>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <h2>align-content:</h2>
+            <p>Alignment of space between and around the content w.r.t cross axis.<br />
+                Wrapping text is important to apply align-content property.
+            </p>
+            <ol>
+                <li>
+                    <h3>flex-start:</h3>
+                    <p>All the content is pushed towards start w.r.t cross axis, eleminating the space in the start.<br />
+                        Space is accumulated at the end.</p>
+                    <div id="outerdiv8_1" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>center:</h3>
+                    <p>The space between the upper and lower elements is managed<br />
+                        The upper and lower contents are pulled to eachother w.r.t cross axis.<br>
+                        space is accumulated above and below the content.
+                    </p>
+                    <div id="outerdiv8_2" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>end:</h3>
+                    <p>All the content is pushed towards start w.r.t cross axis, eleminating the space in the start.<br />
+                        Space is accumulated above the content.
+                    </p>
+                    <div id="outerdiv8_3" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div3">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <h2>align-self:</h2>
+            <p>Used for the alignment of individual elements along the cross axis.<br />
+                 It only works on individual elements, so its styling is also done independently.</p>
+            <ol>
+                <li>
+                    <h3>flex-start</h3>
+                    <p>Aligns the element to the start w.r.t cross axis.</p>
+                    <div id="outerdiv9_1" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div31">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>flex-start</h3>
+                    <p>Aligns the element to the center w.r.t cross axis.</p>
+                    <div id="outerdiv9_1" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div32">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+                <li>
+                    <h3>flex-end</h3>
+                    <p>Aligns the element to the end w.r.t cross axis.</p>
+                    <div id="outerdiv9_1" class="outerdiv">
+                        <div id="div1">BOX1</div>
+                        <div id="div2">BOX2</div>
+                        <div id="div33">BOX3</div>
+                        <div id="div4">BOX4</div>
+                        <div id="div5">BOX5</div>
+                    </div>
+                </li>
+            </ol>
+
+        </li>
+        <li>
+            <h2>flex-grow:</h2>
+            <p>It determines how much a flex item will grow relative to the rest of the flex items if space is available.<br />
+                <ol>
+                    <li>
+                        <h3>flex-shrink</h3>
+                        <p>Shrink or decrease the size of the element w.r.t parent div or as specified factor in css file.<br />
+                            Here the container's size is 200*400px and each box element is of 100*100px.<br />
+                            If we want to shrink the box two for some reason, then we can use flex-shrink property and shrink the element by setting factor to two.
+                        </p>
+                        <div id="outerdiv10_1" class="outerdiv">
+                            <div id="div_1">BOX1</div>
+                            <div id="div_2">BOX2</div>
+                            <div id="div_3">BOX3</div>
+                            <div id="div_4">BOX4</div>
+                            <div id="div_5">BOX5</div>
+                        </div>
+                        <p>If we want the original size of the box that is 100*100px, set flex-shrink: 0;</p>
+                        <div id="outerdiv10_1" class="outerdiv">
+                            <div id="div_11">BOX1</div>
+                            <div id="div_12">BOX2</div>
+                            <div id="div_13">BOX3</div>
+                            <div id="div_14">BOX4</div>
+                            <div id="div_15">BOX5</div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>flex-grow</h3>
+                        <p>Grow or increase the size of the element w.r.t parent div.<br />
+                             This property can be used if the size of the container is larger than all the elements.</p>
+                        <div id="outerdiv10_2" class="outerdiv">
+                            <div id="div_21">BOX1</div>
+                            <div id="div_22">BOX2</div>
+                            <div id="div_23">BOX3</div>
+                            <div id="div_24">BOX4</div>
+                            <div id="div_25">BOX5</div>
+                        </div>
+                        <p>If we want any two elements to occupy the remaning space, we set the flex-grow to both the divs.</p>
+                        <div id="outerdiv10_2" class="outerdiv">
+                            <div id="div_31">BOX1</div>
+                            <div id="div_32">BOX2</div>
+                            <div id="div_33">BOX3</div>
+                            <div id="div_34">BOX4</div>
+                            <div id="div_35">BOX5</div>
+                        </div>
+                        <p>Or if want want different elements to take different spaces, we can play with their ratios.</p>
+                        <div id="outerdiv10_2" class="outerdiv">
+                            <div id="div_41">BOX1</div>
+                            <div id="div_42">BOX2</div>
+                            <div id="div_43">BOX3</div>
+                            <div id="div_44">BOX4</div>
+                            <div id="div_45">BOX5</div>
+                        </div>
+                    </li>
+                </ol>
+            </p>
+        </li>
+    </ol>
+
+
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+    <h1>END</h1>
+</body>
+</html>
