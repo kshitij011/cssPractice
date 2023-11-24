@@ -1,0 +1,28 @@
+div{
+    height: 70px;
+    width: 70px;
+    background-color: orange;
+}
+
+@media (width: 600px){
+    #div1{
+        background-color: #414141;
+    }
+}
+
+@media (min-width: 600px){
+    #div2{
+        background-color: red;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px){
+    #div3{
+        background-color: blue;
+    }
+}
+/* @media (hover: hover){
+    #div3{
+        background-color: black;
+    }
+} */
