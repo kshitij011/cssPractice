@@ -1,0 +1,64 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* position:absolute; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: myAnima;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.15s;
+    animation-iteration-count: 3;
+    /* animation-fill-mode: ; */
+    /* animation-direction: */
+}
+
+@keyframes myAnima{
+    from{background-color: aqua;}
+    to{background-color: red;}
+}
+
+@keyframes normalAnima{
+    from{right: 0px;
+        background-color: yellow;}
+    to{right: 400px;
+        background-color: red;}
+}
+
+@keyframes percentAnima{
+    0%{left: 0px;
+        background-color: #fff;}
+    50%{background-color: #8f8f8f;
+    color: #8f8f8f;}
+    100%{left: 200px;
+        background-color: #000;
+    color: #fff;}
+}
+
+#normal{
+    position:absolute;
+    animation: normalAnima 2s ease-in-out 0s infinite normal forwards;
+}
+
+#reverse{
+    position:absolute;
+    animation: normalAnima 2s ease-in-out 0s infinite reverse backwards;
+}
+
+#alternate{
+    position:absolute;
+    animation: normalAnima 2s ease-in-out 0s infinite alternate;
+}
+
+#alternateReverse{
+    position:absolute;
+    animation: normalAnima 2s ease-in-out 0s infinite alternate-reverse;
+}
+
+#percentAnima{
+    position:absolute;
+    animation: percentAnima 2s ease-in-out 0s infinite alternate-reverse backwards;
+}

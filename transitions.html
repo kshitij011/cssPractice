@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <link rel="stylesheet" href="./transitions.css">
+</head>
+<body>
+    <h1>Learning transitions property</h1>
+    <h2>transition-duration</h2>
+    <p>Transation property defines the transation between two states of an element. Here transition property is set to 2sec.    </p>
+    <p>This box changes color when hovered over it. Property used: #hover:hover{..}</p>
+    <div id="hover">This is a hover box</div>
+    <p>This box changes color when you click on it. Property used: #click:active{..}</p>
+    <div id="click">This is active box</div>
+    <h2>transition-timing-function</h2>
+    <ol>
+        <li>
+            <h3>ease-in</h3>
+            <p>This is ease-in transition function. Animation speed starts slowly and increases after sometime.</p>
+            <div id="easeInBox">This is ease-in box</div>
+        </li>
+        <li>
+            <h3>ease-out</h3>
+            <p>This is ease-out transition function.</p>
+            <div id="easeOutBox">This is ease-out box</div>
+        </li>
+        <li>
+            <h3>linear</h3>
+            <p>This is linear transition function.</p>
+            <div id="linearBox">This is linear box</div>
+        </li>
+        <li>
+            <h3>step</h3>
+            <p>This is step transition function. Changes color in steps.</p>
+            <div id="stepBox">This is step box</div>
+        </li>
+    </ol>
+    <h2>transition-delay</h2>
+    <p>Transition occurs after specified amount of time(1 sec in this case).</p>
+    <div id="delayBox">This is step box</div>
+    <h2>Transition shorthand</h2>
+    <p>Syntax for transition shorthand= transition: font-size 2s ease-in 0.2s; </p>
+    <div id="shorthandBox">This is shorthand box</div>
+</body>
+</html>

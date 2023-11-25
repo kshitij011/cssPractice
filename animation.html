@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <link rel="stylesheet" href="./animation.css">
+</head>
+<body>
+    <h1>Learning animations</h1>
+    <p>Animations are used to animate css elements.<br />
+        Syntax:
+    <pre>
+        @keyframe myName{
+            from{font-size: x px;}
+            to{font-size: y px;}
+        }
+    </pre>
+    <div id="anima">BOX</div>
+    </p>
+
+    <h2>Animaiton tags that need to be declared to use animation are:</h2>
+    <ol>
+        <li>animation-name: xyz;</li>
+        <li>animation-duration: Xs;</li>
+        <li>animation-timing-function: ease-out;</li>
+        <li>animation-delay: 0.15s;</li>
+        <li>animation-iteration-count: 2 or infinite;</li>
+        <li><h2>animation-direction:</h2>
+            <p>There are four types of animation direction:<br />
+               ( Boxes appear to be floating because the position is absolute which lifts up the element in z-axis.)</p>
+            <ol>
+                <li>
+                    <h3>normal</h3>
+                    <p>Element moves from initial to final position normally.</p>
+                    <div id="normal">BOX</div><hr>
+                </li>
+                <li>
+                    <h3>reverse</h3>
+                    <p>Element moves from initial to final position in reverse order.</p>
+                    <div id="reverse">BOX</div><hr>
+                </li>
+                <li>
+                    <h3>alternate</h3>
+                    <p>Element moves from initial to final position in alternative order. From left to right and vice versa.</p>
+                    <div id="alternate">BOX</div><hr>
+                </li>
+                <li>
+                    <h3>alternate-reverse</h3>
+                    <p>Element moves from initial to final position in reverse-alternative order. From right to left and vice versa.</p>
+                    <div id="alternateReverse">BOX</div><hr>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <h1>% in animations:</h1>
+    <p>We can set different properties in animation at different stages of it's journey.<br />
+        E.g: we can say that use particular property when the element reaches 50% of its journey.
+    </p>
+    <div id="percentAnima">BOX</div>
+
+</body>
+</html>
