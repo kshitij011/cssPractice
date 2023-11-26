@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 .nav-logo{
@@ -23,7 +24,7 @@
     background-size:contain;
     background-repeat: no-repeat;
     height: 50px;
-    width:100%;
+    width:100px;
     margin-top: 10px;
 }
 .border{
@@ -44,8 +45,9 @@
 }
 
 .add-sec{
-    font-size: 1rem;
+    font-size: 0.85rem;
     margin-left: 3px;
+    font-weight: 700;
 }
 .add-icon{
     display: flex;
@@ -63,7 +65,7 @@
     /* align-items:self-start; */
 }
 .nav-search:hover{
-    box-shadow: 2px 2px 2px purple;
+    box-shadow: 2px 2px 2px black;
 }
 
 .search-select{
@@ -101,4 +103,204 @@ span{
 .nav-sec{
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+/* box 6 */
+
+.nav-cart{
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+    align-items: center;
+}
+.nav-cart p{
+    align-self: end;
+    padding-bottom: 5px;
+}
+.nav-cart i{
+    font-size: 25px;
+}
+
+/* panel */
+.panel{
+    height: 39px;
+    background-color: #156957;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p{
+    display: inline;
+    width: 70%;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+
+.hero-section{
+    background-image: url("./heroImage.jpg");
+    background-size:cover;
+    height: 600px;
+}
+
+/* shop section */
+
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ebf0ef;
+    padding-bottom: 15px;
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: #fff;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+.box:hover{
+    transform: scale(1.02);
+    box-shadow: 10px 10px 5px gray;
+}
+.box:active{
+    background-color: gray;
+    transition-property: all 1s linear;
+}
+
+/* box 1 */
+.box-struct{
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-img{
+    background-image: url("gaming-setup.jpg");
+}
+.box-img2{
+    background-image: url("holiday.jpg");
+}
+.box-img3{
+    background-image: url("fashion.jpeg");
+}
+.box-img4{
+    background-image: url("refresh.jpg");
+}
+.box-img5{
+    background-image: url("beauty.jpg");
+}
+.box-img6{
+    background-image: url("toy.jpg");
+}
+.box-img7{
+    background-image: url("pc.jpg");
+}
+.box-img8{
+    background-image: url("decor.jpg");
+}
+
+/* footer */
+
+footer{
+    color: white;
+}
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+ul p{
+    font-weight: 700;
+}
+
+/* panel 3 */
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.logo2{
+    background-image: url("amazonLogo(3).png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width:100px;
+    margin-top: 10px;
+    align-self: center;
+    justify-content: center;
+}
+
+.foot-panel4{
+    background-color: #151d25;
+    color: white;
+    height: 80px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+    display: block;
+}
+
+.pages a{
+    color: white;
+    text-decoration: none;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    display: block;
+}
+
+marquee{
+    font-size: 0.85rem;
+    font-style: italic;
+    font-weight: 300;
 }
