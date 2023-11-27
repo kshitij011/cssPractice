@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.image-container{
+    background-image: url("./A._P._J._Abdul_Kalam.jpg");
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 10%;
+    display: flex;
+    justify-content: start;
+}
+.top-section{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 100px;
+    align-items: flex-end;
+}
+
+.text{
+    text-align: right;
+    font-weight: bold;
+}
+.text h1{
+    font-size: 50px;
+
+}
+
