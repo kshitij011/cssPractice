@@ -1,0 +1,76 @@
+*{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    /* color: #ccc; */
+
+}
+
+.pimg1{
+    background-image: url("./mountain.jpg");
+    min-height: 100vh;
+}
+
+.pimg2{
+    background-image: url("./lake.jpg");
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url("./beah.jpg");
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3{
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    height: auto;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.textBg{
+
+    background-color: #cccccc7c;
+    padding: 20px;
+    /* filter:blur(6px); */
+
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+    height: auto;
+}
+
+.section h1{
+    /* font-weight: 600; */
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
